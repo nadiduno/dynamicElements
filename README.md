@@ -36,7 +36,7 @@ for (let recorrido of booksByCategory) {
 <div align="center">
   <img 
     alt="Usando elementos dinamicos em JavaScript document.createElement document.body.insertBefore e usando nth-child em CSS por DevRel Nadi Duno"
-    src=".github/JavaScriptNadiDuno.png" 
+    src="JavaScriptNadiDuno.png" 
     width="100%"
   >
   <br />
