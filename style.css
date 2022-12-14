@@ -1,3 +1,48 @@
-h1, h2 {
+html {
   font-family: Lato;
+  --color1: #04D9D9;
+  --color2: #2F1640;
+  --color3: #F25774;
+  --color4: #D7F205;
+  --color5: #F2D0A7;
+}
+
+body {
+  display:block;
+  align-items:center;
+  justify-content:center;
+}
+h1 {
+  color: var(--color2);
+}
+p{
+  color:gray;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div:nth-child(even){
+  background-color: var(--color4);
+  padding: 5px;
+  margin-top: 3rem;
+  border-radius: .4rem;
+  font-size:16pt;
+}
+span{
+  display: block;
+  padding: 8px;
+}
+span:nth-child(even){
+  background-color:var(--color1);
+}
+span:nth-child(odd){
+  background-color: var(--color3);
+}
+footer{
+  background-color: var(--color2);
+}
+.devrel{
+  background-color: var(--color2);
 }
