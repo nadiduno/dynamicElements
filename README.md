@@ -20,17 +20,11 @@ Esta aplicação cria as tag´s do HTML usando JavaScript, é dizer mediantes li
     </div>
   </body>
 </html>
-```js
+```
 ##Código em JS
 
-##Agregando uma tag h2
-```
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h2>Categorias de Livros</h2>`;
-```
-
 ##Agregando os objetos de uma classe
-```js
+```javascript
 for (let recorrido of booksByCategory) {
   var divNova = document.createElement('div');
   var conteudoNovo = document.createTextNode(recorrido.category);
